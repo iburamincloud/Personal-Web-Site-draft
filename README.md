@@ -1,3 +1,3 @@
-# Personal Webside
+# Personal Website
 
 - Coming Soon 
