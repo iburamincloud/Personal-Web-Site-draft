@@ -1,6 +1,11 @@
+.welcome-container{
+  width: 100%;
+  height: 35%;
+}
+
 .sinus-rhythm-container{
     background-color: black;
-    height: 35%;
+    height: 100%;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -12,9 +17,9 @@
     background-color:black;
     display: flex;
     justify-content:center;
-    width: 1280px;
-    height: 350px;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .fade-in {
@@ -69,6 +74,7 @@
       left: 0;
     }
 }
+
 .beats-for-develop-container{
     justify-content: center;
     position: absolute;
@@ -79,10 +85,30 @@
     bottom: 0px;
 }
 .beats-content{
-    margin: 90px;
+    margin: 67px;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 13px;
+    user-select: none;
     
+}
+
+.who-i-am-container{
+  width: 100%;
+  background-color: black;
+  color: #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.who-i-am-title{
+  font-size: 60px;
+}
+.who-i-am-text{
+  font-size: 20px;
+  text-align: center;
+  width: 45%;
 }
