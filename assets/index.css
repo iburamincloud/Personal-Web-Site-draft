@@ -78,14 +78,15 @@
 .beats-for-develop-container{
     justify-content: center;
     position: absolute;
-    color: #ffffff;
+    color: #000000;
     display: flex;
     width: 100%;
     height: 100%;
-    bottom: 0px;
+    bottom: 15px;
 }
 .beats-content{
-    margin: 67px;
+  color: #cfcfcf;
+    bottom: 0px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -95,20 +96,32 @@
     
 }
 
-.who-i-am-container{
+.who-i-am-table{
+   width: 100%;
+   display: table;
+}
+
+.who-i-am-table-cell{
+  display: table-cell;
   width: 100%;
-  background-color: black;
-  color: #cfcfcf;
+  padding: 40px;
+  
+}
+.who-i-am-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  user-select: none;
 }
 .who-i-am-title{
   font-size: 60px;
+  color: #b695c0;
 }
+
 .who-i-am-text{
   font-size: 20px;
   text-align: center;
+  color: #cfcfcf;
   width: 45%;
 }
